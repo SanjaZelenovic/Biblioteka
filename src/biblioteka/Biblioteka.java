@@ -16,7 +16,7 @@ public class Biblioteka implements BibliotekaInterfejs {
 		if (knjige.contains(knjiga))
 			throw new RuntimeException("Knjiga vec postoji");
 		
-		knjige.add(knjiga);	
+		knjige.add(knjiga);
 	}
 
 	@Override
